@@ -1,0 +1,55 @@
+Training configuration: Namespace(model='pointnet2_part_seg_msg', data_path='/kaggle/input/shapenetpart/shapenetpart_hdf5_2048', epochs=15, batch_size=16, learning_rate=0.001, num_point=2048, lr_scheduler='step', step_size=20, gamma=0.7, log_dir='4_Baseline_jittering', seed=42, augment_rotation=False, augment_jitter=True, augment_scale=False, use_amp=False)
+Training started on cuda | AMP=False
+
+Epoch [1/15]
+Train Loss: 0.5946 | Validation mIoU: 0.8074
+Best model saved (mIoU=0.8074)
+
+Epoch [2/15]
+Train Loss: 0.2632 | Validation mIoU: 0.8097
+Best model saved (mIoU=0.8097)
+
+Epoch [3/15]
+Train Loss: 0.2403 | Validation mIoU: 0.8127
+Best model saved (mIoU=0.8127)
+
+Epoch [4/15]
+Train Loss: 0.2297 | Validation mIoU: 0.8040
+
+Epoch [5/15]
+Train Loss: 0.2226 | Validation mIoU: 0.8271
+Best model saved (mIoU=0.8271)
+
+Epoch [6/15]
+Train Loss: 0.2190 | Validation mIoU: 0.8368
+Best model saved (mIoU=0.8368)
+
+Epoch [7/15]
+Train Loss: 0.2170 | Validation mIoU: 0.8196
+
+Epoch [8/15]
+Train Loss: 0.2119 | Validation mIoU: 0.8276
+
+Epoch [9/15]
+Train Loss: 0.2097 | Validation mIoU: 0.8367
+
+Epoch [10/15]
+Train Loss: 0.2062 | Validation mIoU: 0.8361
+
+Epoch [11/15]
+Train Loss: 0.2064 | Validation mIoU: 0.8397
+Best model saved (mIoU=0.8397)
+
+Epoch [12/15]
+Train Loss: 0.2022 | Validation mIoU: 0.8382
+
+Epoch [13/15]
+Train Loss: 0.2031 | Validation mIoU: 0.8359
+
+Epoch [14/15]
+Train Loss: 0.1978 | Validation mIoU: 0.8459
+Best model saved (mIoU=0.8459)
+
+Epoch [15/15]
+Train Loss: 0.2001 | Validation mIoU: 0.8276
+Training complete. Best Validation mIoU: 0.8459

@@ -1,0 +1,33 @@
+Loading H5 files for 'test' split: ['test1.h5', 'test0.h5']
+The size of test data is 2874
+
+--- Comprehensive Performance Evaluation ---
+Calculating OA & mIoU: 100%|██████████████████| 180/180 [01:06<00:00,  2.71it/s]
+
+--- Class-wise mIoU ---
+Airplane    : 0.7951
+Bag         : 0.6847
+Cap         : 0.7674
+Car         : 0.7229
+Chair       : 0.8787
+Earphone    : 0.7324
+Guitar      : 0.8922
+Knife       : 0.8109
+Lamp        : 0.8063
+Laptop      : 0.9420
+Motorbike   : 0.4799
+Mug         : 0.9173
+Pistol      : 0.7236
+Rocket      : 0.4409
+Skateboard  : 0.7124
+Table       : 0.7772
+
+--- Overall Metrics ---
+Overall Accuracy (OA): 0.9177
+Class mIoU: 0.7552
+Instance mIoU: 0.8091
+Measuring Inference Speed: 100%|██████████████| 180/180 [01:05<00:00,  2.77it/s]
+Avg. Inference Time: 22.4420 ms/sample
+Max GPU Memory: 1580.91 MB
+Model Size: 7.09 MB
+----------------------------------------
