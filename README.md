@@ -27,7 +27,7 @@ This repository contains implementation and analysis of PointNet and PointNet++ 
   - Rotation
   - Scaling
   - Jittering
-- Point density experiments (512, 1024 points)
+- Point density experiments (512, 1024, 2048 points)
 - Model performance metrics and memory consumption analysis
 
 ## Experiments
