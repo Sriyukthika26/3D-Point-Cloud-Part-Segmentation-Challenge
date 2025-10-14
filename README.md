@@ -61,8 +61,8 @@ Trained models are available in:
 ## Visualization
 
 Sample visualization outputs are available in:
-- `Training_Data_Visualization/`
-- `PointNet/Results/`
+- `Data/Training_Data_Visualization/`
+- `Results/`
 
 ## Training and Evaluation
 
@@ -74,6 +74,13 @@ python PointNet/training_part_seg.py --exp_name 'your_exp_name' --n_points 2048 
 python PointNet++/train.py --exp_name 'your_exp_name' --n_points 2048 --batch_size 16
 
 # Evaluate models
-python PointNet/evaluate.py
+python PointNet/evaluate.py --checkpoint_pth 'your_checkpoint_path'
 python PointNet++/evaluate.py --checkpoint_pth 'your_checkpoint_path'
 ```
+<img width="1600" height="800" alt="image" src="https://github.com/user-attachments/assets/8356fa2e-c3a6-4969-8514-61148eaf6098" />
+
+<img width="1600" height="800" alt="image" src="https://github.com/user-attachments/assets/cb067bfe-061e-4056-a5b3-ebab87826f04" />
+
+<img width="1600" height="800" alt="image" src="https://github.com/user-attachments/assets/01d62f9f-c2f0-447f-add2-1b26e61ab9ab" />
+
+
