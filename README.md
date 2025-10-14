@@ -27,7 +27,7 @@ This repository contains implementation and analysis of PointNet and PointNet++ 
   - Rotation
   - Scaling
   - Jittering
-- Point density experiments (512, 1024 points)
+- Point density experiments (512, 1024, 2048 points)
 - Model performance metrics and memory consumption analysis
 
 ## Experiments
@@ -39,9 +39,10 @@ This repository contains implementation and analysis of PointNet and PointNet++ 
 - Random jittering
 
 ### Point Density Analysis
-- 512 points
-- 1024 points
-- Impact on model performance and efficiency
+- Impact on model performance and efficiency with various densities
+  - 512 points
+  - 1024 points
+  - 2048 points
 
 ## Results
 
@@ -49,11 +50,11 @@ The repository includes detailed experimental results:
 - Training convergence plots
 - Evaluation metrics
 - Visual results of part segmentation
-- Model size and memory consumption statistics
+- Point density vs. performance plot
 
 ## Model Checkpoints
 
-Pre-trained models are available in:
+Trained models are available in:
 - `PointNet/experiments/*/checkpoints/`
 - `PointNet++/logs/*/checkpoints/`
 
@@ -67,19 +68,12 @@ Sample visualization outputs are available in:
 
 ```bash
 # Train PointNet
-python PointNet/training_part_seg.py
+python PointNet/training_part_seg.py --exp_name 'your_exp_name' --n_points 2048 --batch_size 16
 
 # Train PointNet++
-python PointNet++/train.py
+python PointNet++/train.py --exp_name 'your_exp_name' --n_points 2048 --batch_size 16
 
 # Evaluate models
 python PointNet/evaluate.py
-python PointNet++/evaluate.py
+python PointNet++/evaluate.py --checkpoint_pth 'your_checkpoint_path'
 ```
-
-## Requirements
-
-- PyTorch
-- NumPy
-- Open3D (for visualization)
-- Additional dependencies in requirements.txt
