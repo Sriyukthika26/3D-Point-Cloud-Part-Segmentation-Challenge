@@ -2,7 +2,7 @@ import time
 import torch
 from tqdm import tqdm
 import os
-from data_loader import ShapeNetPartH5
+from Data.data_loader import ShapeNetPartH5
 from pointnet_partseg_model import get_model
 import numpy as np
 import argparse

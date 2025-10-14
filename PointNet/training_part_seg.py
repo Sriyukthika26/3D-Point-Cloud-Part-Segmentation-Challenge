@@ -8,7 +8,7 @@ import time
 import argparse
 from tqdm import tqdm
 import matplotlib.pyplot as plt
-from data_loader import ShapeNetPartH5
+from Data.data_loader import ShapeNetPartH5
 from pointnet_partseg_model import get_model, get_loss
 
 def to_categorical(y, num_classes):

@@ -9,7 +9,7 @@ from tqdm import tqdm
 from torch.utils.data import DataLoader
 from torch.cuda.amp import autocast, GradScaler
 import random
-from data_loader import ShapeNetPartH5
+from Data.data_loader import ShapeNetPartH5
 
 # --- Dataset & Utilities ---
 seg_classes = {
