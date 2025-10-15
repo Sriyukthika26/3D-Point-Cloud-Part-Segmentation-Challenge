@@ -77,17 +77,17 @@ python PointNet++/train.py --exp_name 'your_exp_name' --n_points 2048 --batch_si
 python PointNet/evaluate.py --checkpoint_pth 'your_checkpoint_path'
 python PointNet++/evaluate.py --checkpoint_pth 'your_checkpoint_path'
 ```
-# Predictions Vs. Ground Truth
+## Predictions Vs. Ground Truth
 
-<img width="1600" height="800" alt="image" src="https://github.com/user-attachments/assets/8356fa2e-c3a6-4969-8514-61148eaf6098" />
+<img width="1200" height="600" alt="image" src="https://github.com/user-attachments/assets/8356fa2e-c3a6-4969-8514-61148eaf6098" />
 
-<img width="1600" height="800" alt="image" src="https://github.com/user-attachments/assets/cb067bfe-061e-4056-a5b3-ebab87826f04" />
+<img width="1200" height="600" alt="image" src="https://github.com/user-attachments/assets/cb067bfe-061e-4056-a5b3-ebab87826f04" />
 
-<img width="1600" height="800" alt="image" src="https://github.com/user-attachments/assets/01d62f9f-c2f0-447f-add2-1b26e61ab9ab" />
+<img width="1200" height="600" alt="image" src="https://github.com/user-attachments/assets/01d62f9f-c2f0-447f-add2-1b26e61ab9ab" />
 
-# Point Density Vs. Performance
+## Point Density Vs. Performance
 
-<img width="3000" height="1800" alt="image" src="https://github.com/user-attachments/assets/42b589ab-79b5-47b8-b349-71a7c1d6caa1" />
+<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/42b589ab-79b5-47b8-b349-71a7c1d6caa1" />
 
 
 
