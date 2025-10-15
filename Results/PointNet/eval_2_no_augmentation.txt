@@ -1,0 +1,58 @@
+Loading H5 files for 'test' split: ['test1.h5', 'test0.h5']
+The size of test data is 2874
+--- Starting Full Evaluation on Baseline Model ---
+Successfully loaded model from /kaggle/input/pointnet-all-models/experiments/2_no_augmentation_15e/checkpoints/best_model.pth
+
+--- [1/5] Calculating Model Size ---
+Model checkpoint file size: 31.92 MB
+Number of parameters: 8,342,395
+
+--- [2,3/5] Calculating Inference Time & Memory ---
+Average inference time per sample: 5.62 ms
+Peak GPU memory consumption during inference: 124.84 MB
+
+--- [4,5/5] Calculating Accuracy and mIoU on Test Set ---
+Evaluating Test Set: 100%|████████████████████| 180/180 [00:13<00:00, 13.50it/s]
+
+
+==================================================
+      FINAL EVALUATION REPORT
+==================================================
+Overall Accuracy (OA):   0.9080
+Instance mIoU:           0.7873
+Class mIoU:              0.7255
+Inference Time (ms):     5.62
+Peak Memory (MB):        124.84
+Model Size (MB):         31.92
+Model Parameters:        8,342,395
+==================================================
+
+--- Generating Visualization: Ground Truth vs. Prediction ---
+
+[SUCCESS] Visualization saved to /kaggle/working/2_no_augmentation.png
+
+
+============================================================
+                      CLASS-WISE mIoU REPORT
+============================================================
+Category        | mIoU       | # Test Shapes  
+------------------------------------------------------------
+Airplane        | 0.7663     | 341            
+Bag             | 0.7441     | 14             
+Cap             | 0.7193     | 11             
+Car             | 0.6029     | 158            
+Chair           | 0.8542     | 704            
+Earphone        | 0.6741     | 14             
+Guitar          | 0.8677     | 159            
+Knife           | 0.7889     | 80             
+Lamp            | 0.7387     | 286            
+Laptop          | 0.9298     | 83             
+Motorbike       | 0.4069     | 51             
+Mug             | 0.8611     | 38             
+Pistol          | 0.7018     | 44             
+Rocket          | 0.4680     | 12             
+Skateboard      | 0.6859     | 31             
+Table           | 0.7974     | 848            
+------------------------------------------------------------
+Mean (Class Avg) | 0.7255     | 2874           
+============================================================
