@@ -2,6 +2,8 @@
 
 This repository contains implementation and analysis of PointNet and PointNet++ architectures for 3D point cloud part segmentation, with comprehensive experiments on data augmentation techniques and point density effects.
 
+[Mock Reserarch Paper](https://drive.google.com/file/d/1XXKO2h0GIbskIvJuf35BMKJVy1wTo9Mk/view?usp=drive_link)
+
 ## Project Structure
 
 ```
